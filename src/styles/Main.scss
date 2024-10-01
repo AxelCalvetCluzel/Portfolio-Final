@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Arial", sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#about {
+    background: linear-gradient(to bottom, #2c3e50, #4b7288);
+}
+
+#Competences {
+    background: linear-gradient(to bottom, #4b7288, #bac8d4);
+}
+
+#projects {
+    background: linear-gradient(to bottom, #bac8d4, #2c3e50);
+}
+
+#contact {
+    background: linear-gradient(to bottom, #2c3e50, #4b7288);
+}

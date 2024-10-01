@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+.projects-container {
+    padding: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #2C3E50, #4B7288);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 212, 255, 0.4);
+}
+
+.projects-grid {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+@media (min-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.project-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 20px rgba(0, 212, 255, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+}
+
+.project-card .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(0.8);
+    transition: filter 0.3s ease;
+}
+
+.project-card .project-content {
+    padding: 1.5rem;
+}
+
+.project-card .project-content h3 {
+    color: #00d4ff;
+    margin-bottom: 0.5rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.project-card .project-content p {
+    color: #cccccc;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 24px rgba(0, 212, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.project-card:hover .project-image {
+    filter: brightness(1);
+}
+
+.project-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.project-modal {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 212, 255, 0.4);
+}
+
+.github-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.github-button:hover {
+    background-color: #333333;
+    transform: translateY(-3px);
+}
+
+.close-modal-btn {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    display: block;
+    width: 100%;
+}
+
+.close-modal-btn:hover {
+    background-color: #008c9e;
+}
+
+.modalContent h3 {
+    font-size: 1.5rem;
+    color: #00d4ff;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.modalContent p {
+    font-size: 0.9rem;
+    color: #333;
+    font-family: 'Orbitron', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .modalContent h3 {
+        font-size: 1rem;
+    }
+
+    .modalContent p {
+        font-size: 0.6rem;
+    }
+
+    .github-button {
+        font-size: 0.9rem;
+    }
+
+    .close-modal-btn {
+        font-size: 0.9rem;
+    }
+
+    .skills-container {
+        font-size: 0.8rem;
+    }
+
+    .skill-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.skill-icon {
+    margin: 0 0.5rem;
+    color: #00d4ff;
+}
