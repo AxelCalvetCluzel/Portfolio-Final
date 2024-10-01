@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio-Final/static/css/main.6fd40027.css",
-    "main.js": "/Portfolio-Final/static/js/main.560a0868.js",
+    "main.js": "/Portfolio-Final/static/js/main.e443969a.js",
     "static/media/kasa.png": "/Portfolio-Final/static/media/kasa.640955dab8c7bff25514.png",
     "static/media/plat.jpg": "/Portfolio-Final/static/media/plat.4e7cf3326cf48aa765f6.jpg",
     "static/media/sophie-bluel.png": "/Portfolio-Final/static/media/sophie-bluel.115d313bea380c74a3b4.png",
+    "static/media/profill.jpg": "/Portfolio-Final/static/media/profill.d658355ba1dc6c87d949.jpg",
     "static/media/fa-solid-900.ttf": "/Portfolio-Final/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/Portfolio-Final/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
     "static/media/robot.webp": "/Portfolio-Final/static/media/robot.9b622f059bd89dce154d.webp",
     "static/media/fa-solid-900.woff2": "/Portfolio-Final/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/profil.jpg": "/Portfolio-Final/static/media/profil.1a4dc988e89033833fde.jpg",
     "static/media/724events.png": "/Portfolio-Final/static/media/724events.5a594739108c0fe0ed59.png",
     "static/media/bank-tree.jpeg": "/Portfolio-Final/static/media/bank-tree.4d59987c7c62b024b014.jpeg",
     "static/media/fa-brands-400.woff2": "/Portfolio-Final/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
@@ -23,10 +23,10 @@
     "static/media/fa-v4compatibility.woff2": "/Portfolio-Final/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Portfolio-Final/index.html",
     "main.6fd40027.css.map": "/Portfolio-Final/static/css/main.6fd40027.css.map",
-    "main.560a0868.js.map": "/Portfolio-Final/static/js/main.560a0868.js.map"
+    "main.e443969a.js.map": "/Portfolio-Final/static/js/main.e443969a.js.map"
   },
   "entrypoints": [
     "static/css/main.6fd40027.css",
-    "static/js/main.560a0868.js"
+    "static/js/main.e443969a.js"
   ]
 }
