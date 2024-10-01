@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Final/static/css/main.6fd40027.css",
-    "main.js": "/Portfolio-Final/static/js/main.e443969a.js",
+    "main.js": "/Portfolio-Final/static/js/main.a35b56a6.js",
     "static/media/kasa.png": "/Portfolio-Final/static/media/kasa.640955dab8c7bff25514.png",
     "static/media/plat.jpg": "/Portfolio-Final/static/media/plat.4e7cf3326cf48aa765f6.jpg",
     "static/media/sophie-bluel.png": "/Portfolio-Final/static/media/sophie-bluel.115d313bea380c74a3b4.png",
@@ -16,17 +16,17 @@
     "static/media/fa-regular-400.ttf": "/Portfolio-Final/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
     "static/media/cv.jpg": "/Portfolio-Final/static/media/cv.7011536e0fb4bb143de6.jpg",
     "static/media/booki.jpg": "/Portfolio-Final/static/media/booki.a88fb7743ef5316cbef5.jpg",
+    "static/media/CV.pdf": "/Portfolio-Final/static/media/CV.bb36cbb2815072f874a2.pdf",
     "static/media/concert-1.webp": "/Portfolio-Final/static/media/concert-1.7a24330ad27397f28f5b.webp",
-    "static/media/CV.pdf": "/Portfolio-Final/static/media/CV.d93b1d0ba7dede3d2ea1.pdf",
     "static/media/fa-regular-400.woff2": "/Portfolio-Final/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
     "static/media/fa-v4compatibility.ttf": "/Portfolio-Final/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/Portfolio-Final/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/Portfolio-Final/index.html",
     "main.6fd40027.css.map": "/Portfolio-Final/static/css/main.6fd40027.css.map",
-    "main.e443969a.js.map": "/Portfolio-Final/static/js/main.e443969a.js.map"
+    "main.a35b56a6.js.map": "/Portfolio-Final/static/js/main.a35b56a6.js.map"
   },
   "entrypoints": [
     "static/css/main.6fd40027.css",
-    "static/js/main.e443969a.js"
+    "static/js/main.a35b56a6.js"
   ]
 }
